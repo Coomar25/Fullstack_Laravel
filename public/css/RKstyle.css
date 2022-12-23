@@ -1,0 +1,166 @@
+.carousel-inner {
+    height: 550px;
+}
+
+
+/* .item,
+img {
+    height: 100% !important;
+    width: 100% !important;
+} */
+
+.item,
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.underline::after {
+    content: "";
+    width: 50vw;
+    height: 1vh;
+    background-color: #95ffe0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 1rem;
+}
+
+.footSection {
+    color: #f0f9ff;
+    background-color: #282d32;
+    width: 100vw;
+    text-decoration: none;
+}
+
+.footsection a {
+    text-decoration: none;
+}
+
+.lastfoosec {
+    width: 100vw;
+    height: 6rem;
+    background-color: black;
+    color: #f0f9ff;
+}
+
+.footersectionicon i {
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+p,
+a {
+    font-family: "Roboto", sans-serif;
+}
+
+/* footer contact button css */
+.contactbutton {
+    box-shadow: inset 0px 0px 17px -1px #bbdaf7;
+    background: linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+    background-color: #79bbff;
+    border-radius: 8px;
+    border: 2px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 18px;
+    text-decoration: none;
+    text-shadow: -1px 5px 0px #528ecc;
+}
+.contactbutton:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #3f92e4;
+}
+.contactbutton:active {
+    position: relative;
+    top: 1px;
+}
+
+.footerusefulllink a {
+    color: #f0f9ff;
+    text-decoration: none;
+}
+
+.moreanchorstyle1 a {
+    color: #528ecc;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.moreanchorstyle::after {
+    content: "";
+    width: 100vw;
+    height: 1px;
+    background-color: #2a2f2d;
+    position: absolute;
+    right: 0px;
+    border-radius: 1rem;
+}
+
+/* Admin adproduct button css */
+
+.addproductbutton {
+    box-shadow: inset 0px 0px 8px -1px #d4ddd8;
+    background: linear-gradient(to bottom, #a3c6e8 5%, #7dc2e5 100%);
+    background-color: #79bbff;
+    border-radius: 14px;
+    border: 2px solid #84bbf3;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+.addproductbutton a {
+    color: #ffffff;
+    font-size: 12px;
+}
+.addproductbutton:hover {
+    background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+    background-color: #3f92e4;
+}
+.addproductbutton:hover a {
+    font-size: 1rem;
+}
+
+.addproductbutton:active {
+    position: relative;
+    top: 0px;
+}
+
+.middlesection {
+    background: linear-gradient(#bfd5ff, #ffeabf);
+}
+
+.loginbuttonheader a {
+    text-decoration: none;
+}
+
+.loginbuttonheader a:hover {
+    color: #ffffff;
+}
+
+.universalbuttondesign {
+    border: 1px solid #528ecc;
+    background-color: #528ecc;
+    color: #ffeabf;
+}
+
+.universalbuttondesign:hover {
+    background: linear-gradient(90deg, #755bea, #ff72c0);
+    /*background: linear-gradient(90deg, #0162c8, #55e7fc);*/
+}
+
+.universalbuttondesign2 {
+    background-color: orange;
+}
+.universalbuttondesign2:hover {
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+}
