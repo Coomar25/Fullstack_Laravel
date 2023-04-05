@@ -99,12 +99,13 @@
 
 
             </div>
+            {{-- <input type="submit" value="Buy"> --}}
 
-            <input type="submit" class="btn" value="Buy">
 
         </form>
+        <button id="payment-button" class=" btn text-decoration-none"> BUY</button>
 
-        {{-- <button id="payment-button" class=" btn text-decoration-none"> BUY</button> --}}
+
 
     </section>
 
