@@ -22,7 +22,11 @@ class KhaltiController extends Controller
         curl_setopt($ch, CURLOPT_POSTFIELDS, $args);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-        $headers = ['Authorization: Key test_secret_key_737f9892c77d475898c88813288464e5'];
+        // $headers = ['Authorization: Key ////////////////////////'];
+        $secretKey = env('KHALTI_SECRET_KEY');
+        $headers = [
+            'Authorization: Key ' . $secretKey,
+        ];
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
         // Response
